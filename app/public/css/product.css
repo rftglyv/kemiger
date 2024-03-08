@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Product */
+
+#product {
+    margin: 5rem 0;
+}
+
+/* Product */
+
+/* Footer */
+
+footer {
+    margin-top: auto;
+}

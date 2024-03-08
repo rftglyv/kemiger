@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "swiperDesc": "Koku mutsuzluğunu sonlandıracağız!",
+    "image": "assets/swipers/1.png"
+  },
+  {
+    "id": "2",
+    "swiperDesc": "Cerrahi alet gençlik aşısı.",
+    "image": "assets/swipers/2.png"
+  }
+]

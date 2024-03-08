@@ -1,0 +1,134 @@
+/* Poster and Features */
+
+#poster {
+
+    .go-product{
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+    }
+    .glide__slide {
+        padding: 0;
+        cursor: auto;
+        .card {
+            --bs-card-border-width: 0;
+            --bs-card-border-radius: 0;
+            --bs-card-inner-border-radius: 0;
+            --bs-card-border-color: 0;
+            background-color: rgb(0,0,0, 0.6);
+            .card.card-body{
+                background-color: transparent;
+            }
+            .card{
+                filter: invert(100%);
+                .img-fluid{
+                    width: 35%;
+                    position: absolute;
+                    top: 5%;
+                    filter: invert(100%);
+                }
+            }
+
+            .poster-image {
+                object-fit: cover;
+                height: 75vh;
+                opacity: 80%;
+            }
+        }
+    }
+
+    .features.card {
+
+        --bs-card-border-radius: 1rem;
+        --bs-card-inner-border-radius: 0;
+        --bs-card-border-color: #52525220;
+
+        .feature {
+            background-color: #54b0b731;
+            border-radius: 1rem;
+        }
+    }
+}
+
+/* Poster and Features */
+
+/* Products Preview */
+
+#productsPre {
+    .product-cards-wrapper {
+        .card-img-overlay {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(50, 50, 50, 0.25) 100%);
+        }
+    }
+}
+
+/* Products Preview */
+
+/* About Us */
+
+#aboutUs {
+    background-color: #fff0bf30;
+
+    .about-us-wrapper .card {
+        --bs-card-border-radius: 1rem;
+        --bs-card-inner-border-radius: 0;
+        --bs-card-border-color: #52525220;
+        background-color: transparent;
+
+        img {
+            height: 50vh;
+            object-fit: cover;
+        }
+    }
+}
+
+/* About Us */
+
+/* Testimonials */
+
+#testimonials {
+    .profile-picture{
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+    }
+    .testimonials-wrapper.card {
+        --bs-card-border-radius: 1rem;
+        --bs-card-inner-border-radius: 0;
+        --bs-card-border-color: #52525220;
+        background-color: transparent;
+        height: 25%;
+
+        .glide__slide .card {
+            --bs-card-border-color: 0;
+        }
+
+        .card-body {
+            height: 75%;
+        }
+    }
+}
+
+/* Testimonials */
+
+@media only screen and (max-height: 700px) {
+    .features {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    #testimonials {
+        .testimonials-wrapper.card {
+            font-size: 0.75rem;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}

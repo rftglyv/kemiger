@@ -1,0 +1,101 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-wrapper {
+    min-height: 75vh;
+}
+
+.badge {
+    --bs-badge-color: #fff;
+}
+
+.bg-primary {
+    background-color: #54b0b7 !important;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    border-color: var(--bs-border-color);
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-select:focus {
+    border-color: var(--bs-border-color);
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion {
+    --bs-accordion-active-bg: transparent;
+    --bs-accordion-btn-focus-border-color: #cacaca;
+    --bs-accordion-active-color: #1C1B1F;
+    --bs-accordion-border-color: #cacaca;
+    --bs-accordion-border-width: 1px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-flush .accordion-item,
+.accordion-flush .accordion-item:first-child,
+.accordion-flush .accordion-item:last-child {
+    border: 1px solid #cacaca;
+    border-radius: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+[contenteditable]:focus {
+    outline: 1px solid rgb(125, 125, 125);
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    background-color: rgba(145, 145, 220, 0.2);
+}
+
+#productImg, #addProductImg {
+    object-fit: cover;
+}
+
+#productIdInputSubmitBtn{
+    cursor: pointer;
+}
+
+#productImg, #addProductImg, #swiperUploadImg {
+    cursor: pointer;
+}
+
+.product-id {
+    color: #cacaca;
+}
+
+.swiper-id{
+    color: #1C1B1F;
+}
+
+.glide__slide > img{
+    object-fit: cover;
+    height: 30vh;
+}
+
+.main-menu {
+    .menu-section{
+        form {
+            h1::selection, p::selection{
+                color: #000;
+                background-color: rgb(150, 150, 150);
+            }
+        }
+    }
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "name": "Nail Barrier",
+    "desc": "Cureo9 Nail Barrier oksijen teknolojisi, botanik yapılarla oksijeni yüksek seviyede birleştirmiştir. Kadim bilgi ve doğal metodlarla elde edilen gıda bileşenlerini oksijenle buluşturarak yaşamınıza büyük fayda sunar",
+    "addDesc": "Yaşamın ciltten eksilttiği yapı, Cureo9 oksijen teknolojisi ile ait olduğu yere iade edilir. Cureo9 Active Oxygen; Cildi haricen besler ve oksijen terapisi sunar. Ciltte eksilenin telafi edilmesi ile vücudun kendini yenilemesi hızlanır.Yapım maksimum seviyede gerçekleşir.Günlük yaşamın ciltte oluşturduğu olumsuz etkiler deterjan, güneş, çalışma koşulları ve sık temizlik alışkanlığına sahip kişilerde kaybolan nem dengesini korur. Ciltte oluşan tahriş, yaşa bağlı etki, yatalak hasta ve diyabet kaynaklı vücutta eksilenleri organik besinle takviye eder",
+    "benefits": [
+      "Dermatit destek",
+      "Tahriş bertarafında",
+      "Akne karşıtı destek",
+      "Dövme ve sildirme sonrası besleyici",
+      "Dermatolojide hekime destek",
+      "Yaşam kalitesini arttırmaya yardımcı besin"
+    ],
+    "categories": [
+      "CureO9"
+    ],
+    "image": "assets/products/1.png",
+    "timestamp": 1709753018433
+  },
+  {
+    "id": 2,
+    "name": "Oral Shield Barrier",
+    "desc": "Cureo9 Oral Shield Barrier oksijen teknolojisi, botanik yapılarla oksijeni yüksek seviyede birleştirmiştir. Kadim bilgi ve doğal metodlarla elde edilen gıda bileşenlerini, oksijenle buluşturarak yaşamınıza büyük fayda sunar.",
+    "addDesc": "Yaşamın ciltten eksilttiği yapı, Cureo9 oksijen teknolojisi ile ait olduğu yere iade edilir. Cureo9 Active Oxygen; Cildi haricen besler ve oksijen terapisi sunar. Ciltte eksilenin telafi edilmesi ile vücudun kendini yenilemesi hızlanır.Yapım maksimum seviyede gerçekleşir.Klinikte küçük, büyük tüm operasyonlar sonrasında hasta yaşam kalitesi geriler. Hekimin tedavi protokolünde yer alan tüm cerrahiler, polisaj, küretaj, greft uygulaması, enfeksiyon, aftöz, herpes, lazer yanıkları, kemoterapi, behçet ve sebebi bilinmeyen çok başlık tedaviye olumsuz etki eder. Hekimi zorlayan sebeplerde zaman kaybı ve gereğinden fazla hasta ziyaretinede sebep olur.",
+    "benefits": [
+      "Oral koruma",
+      "İmplant sonrası destek",
+      "Alveolit riskine karşı",
+      "Detertraj ve küretaj sonrası",
+      "Enfeksiyona karşı pomad besin",
+      "Hekime dental yaklaşımda destek",
+      "Yaşam kalitesini arttırmaya yardımcı besin"
+    ],
+    "categories": [
+      "Ağız Koruma"
+    ],
+    "image": "assets/products/2.png",
+    "timestamp": 1709582827321
+  },
+  {
+    "id": 3,
+    "name": "Dent Sensitive",
+    "desc": "Cureo9 Dent Sensitive oksijen teknolojisi, botanik yapılarla oksijeni yüksek seviyede birleştirmiştir. Kadim bilgi ve doğal metodlarla elde edilen gıda bileşenlerini oksijenle buluşturarak yaşamınıza büyük fayda sunar.",
+    "addDesc": "Klinikte küçük, büyük tüm operasyonlar sonrasında hasta yaşam kalitesi geriler. Özellikle kesim sonrası, köle hassasiyeti ve tedavi aşamasında oluşan ağrılar hastaya mutsuzluk verir. Hekimin tedavi protokolünde yer alan tüm cerrahiler, polisaj, küretaj, greft uygulaması, enfeksiyon, aftöz, herpes, lazer yanıkları, kemoterapi, behçet ve sebebi bilinmeyen çok başlık tedaviye olumsuz etki eder. Hasta çoklukla yaşamdan kopar. Hekimi zorlayan sebeplerde zaman kaybı ve gereğinden fazla hasta ziyaretinede sebep olur.",
+    "benefits": [
+      "Oral koruma",
+      "İmplant sonrası destek",
+      "Alveolit riskine karşı",
+      "Detertraj",
+      "küretaj sonrası",
+      "Hassasiyet desteği",
+      "Hastaya dental yaklaşımda destek",
+      "Hasta yaşamda kalır. Yaşam kalitesini arttırmaya yardımcı besin."
+    ],
+    "categories": [
+      "Oral Algoloji Barrier"
+    ],
+    "image": "assets/products/3.png",
+    "timestamp": 1709583021645
+  },
+  {
+    "id": 4,
+    "name": "Hand Barrier",
+    "desc": "Cureo9 Hand Barrier öncelikle hekim ve tıbbi personel için tasarlandı. Hekim ve tıbbi personel yoğun eldiven hasarına maruz kalır. Günlük yoğun el yıkama ve dezenfektan kullanımı ciddi hasar oluşturur",
+    "addDesc": "Cureo9 oksijen teknolojisi, botanik yapılarla oksijeni yüksek seviyede birleştirmiştir. Kadim bilgi ve doğal metodlarla elde edilen gıda bileşenlerini oksijenle buluşturarak yaşamınıza büyük fayda sunar.Yaşamın ciltten eksilttiği yapı, Cureo9 oksijen teknolojisi ile ait olduğu yere iade edilir. Cureo9 Active Oxygen; Cildi haricen besler ve oksijen terapisi sunar. Ciltte eksilenin telafi edilmesi ile vücudun kendini yenilemesi hızlanır.Yapım maksimum seviyede gerçekleşir.",
+    "benefits": [
+      "Cilt kuruluğunda",
+      "Mevsim etkilerinde",
+      "Cilt gençleştirmede",
+      "El tahrişinde",
+      "Hassasiyet desteği",
+      "Yoğun eldiven kullanımında",
+      "Yaşam kalitesini arttırmaya yardımcı besin"
+    ],
+    "categories": [
+      "El Koruma"
+    ],
+    "image": "assets/products/4.png",
+    "timestamp": 1709588040765
+  },
+  {
+    "id": 5,
+    "name": "Thunder Cleaner",
+    "desc": "KARARAN CERRAHİ ALET YENİLEYİCİ",
+    "addDesc": "Ölçü kaşıkları, cerrahi ve el aletlerin sterilizasyon sonrası üzerlerinde oluşan eklentilerin mükemmel temizliğini sağlar. Aletlerin üzerinde sonradan oluşan her türlü eklentiyi ortadan kaldırır. Materyallerde oluşan pas ve korozyonun tamamını ortadan kaldırır. Kliniklerde el aletleri, ölçü kaşıkları ve kanal aletlerinin tümünde güvenle kullanılır. Temizlik sırasında kesinlikle mekanik ya da kimyasal aşındırma yapmaz. Sadece oluşan kirleticilerin zincir yapısını kırar. Böylece aletler her temizlik sonrası ilk günkü görünümünün kazanılmasını sağlar. Cerrahi aletlerde görsel iritasyon ortadan kalkar. Tüm el ve cerrahi aletler ömür boyu kullanılabilir hale gelir. Bilindiği gibi alet üzerinde kalıntı varsa sterilizasyon şüphesi taşır. Thunder Cleaner el ve cerrahi aletlerde kalıntısızlık garantisi ile sterilizasyon şüphesini ortadan kaldırır. İmkansız gerçekleşir; Tüm paslanmaz çelik el ve cerrahi aletlerinizi başka hiçbir metod ile geri kazanamazken, tamamı yenilenir.",
+    "benefits": [
+      "Mutlak Hekim",
+      "Asistan",
+      "Hasta"
+    ],
+    "categories": [
+      "Kemiger"
+    ],
+    "image": "assets/products/aspirevac.png",
+    "timestamp": 1709588040765
+  },
+  {
+    "id": 6,
+    "name": "Body Odor Barrier",
+    "desc": "Vücut Koku Önleyici",
+    "addDesc": "Sosyal yaşamı alt üst eden, kötü koku mutsuzluk yaratır. Üstelik bu koku, kendi bedenimizden yayılıyorsa mutsuzluk katlanır. Çok istediğimiz sosyal aktivitelerden bile uzak durmamıza sebep olur. Öyle büyük problemdir’ki duş sonrasında, kısa zamanda ortaya çıkar. Koku genetik bir problem değildir. Sorun ortadan kaldırılabilir Cureo9 botanik içerik ve yüksek oksijen ile vücudu besleyebilirsiniz. Doğanın insanlara vücut kokusunu yok etmek için Cureo9 beslenmesi katkı sunar.",
+    "benefits": [
+      "Ter koku",
+      "Ağız koku",
+      "Genital Koku"
+    ],
+    "categories": [
+      "CureO9"
+    ],
+    "image": "assets/products/Body Odor barrier web site.png",
+    "timestamp": 1709588040765
+  },
+  {
+    "id": 7,
+    "name": "Click meads to edit",
+    "desc": "Click me to editasd",
+    "addDesc": "Click me to editdas",
+    "benefits": [
+      "das"
+    ],
+    "categories": [
+      "ads"
+    ],
+    "image": "assets/products/7.png",
+    "timestamp": 1709746886061
+  },
+  {
+    "id": 8,
+    "name": "Click me to editads",
+    "desc": "Click me to eadsdit",
+    "addDesc": "Click me to editdas",
+    "benefits": [
+      ""
+    ],
+    "categories": [
+      ""
+    ],
+    "image": "assets/products/8.png",
+    "timestamp": 1709754297416
+  },
+  {
+    "id": 9,
+    "name": "Click me tsao edit",
+    "desc": "Click me to edadsit",
+    "addDesc": "Click me to edasdit",
+    "benefits": [
+      ""
+    ],
+    "categories": [
+      ""
+    ],
+    "image": "assets/products/9.png",
+    "timestamp": 1709745914779
+  },
+  {
+    "id": 11,
+    "name": "Qandon Senan",
+    "desc": "Sex de padlo yoxdu",
+    "addDesc": "Dombal",
+    "benefits": [
+      "sex",
+      "ah",
+      "masturbat"
+    ],
+    "categories": [
+      "sexy"
+    ],
+    "image": "assets/products/11.png",
+    "timestamp": 1709747006138
+  },
+  {
+    "id": 12,
+    "name": "asda",
+    "desc": "Click me to ediasdat",
+    "addDesc": "Click me to edasdait",
+    "benefits": [
+      "asdasd"
+    ],
+    "categories": [
+      "asda"
+    ],
+    "image": "assets/products/12.png",
+    "timestamp": 1709748354064
+  }
+]

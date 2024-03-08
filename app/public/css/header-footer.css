@@ -1,0 +1,101 @@
+/* Contact */
+
+.contact-wrapper {
+    background-color: #54b0b7;
+    color: #fff;
+    height: 3rem;
+
+    .socials,
+    .contact {
+        .nav-link:hover {
+            color: #16262E;
+        }
+    }
+}
+
+/* Contact */
+
+/* Header and Navbar */
+
+header {
+
+    .navbar {
+        --bs-navbar-padding-y: 0.75rem;
+        background: rgb(255, 255, 255);
+        --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3Csvg clip-rule='evenodd' fill-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m22 16.75c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75z' fill-rule='nonzero'/%3E%3C/svg%3E");
+    }
+
+    .navbar-nav {
+        --bs-nav-link-hover-color: #54b0b7;
+    }
+
+    .navbar-toggler {
+        border: none;
+        padding: 0;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.75em;
+        height: 1.75em;
+    }
+
+    .navbar-toggler[aria-expanded="true"] {
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg clip-rule='evenodd' fill-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z'/%3E%3C/svg%3E");
+        }
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+}
+
+/* Header and Navbar */
+
+/* Footer */
+
+footer {
+    height: 20vh;
+    background-color: #fff0bf30;
+    margin-top: auto;
+
+    .contact-wrapper {
+        background-color: transparent;
+        color: #16262E;
+
+        .socials,
+        .contact {
+            .nav-link:hover {
+                color: #16262E;
+            }
+        }
+    }
+
+    .copyright {
+        border-top: #16262E 1px solid;
+    }
+
+}
+
+/* Footer */
+
+@media only screen and (max-width: 400px) {
+
+    footer {
+        .contact-wrapper {
+            .contact {
+                a {
+                    i {
+                        display: none;
+                    }
+
+                    font-size: 0.75rem;
+                }
+            }
+        }
+
+        .copyright {
+            font-size: 0.75rem;
+        }
+    }
+}

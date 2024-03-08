@@ -1,0 +1,25 @@
+<form id="addSwiperForm" data-header="flush-headingFive" is-updating="false">
+    <div class="card d-flex flex-column" bis_skin_checked="1">
+        <div class="card-body d-flex flex-column justify-content-center p-lg-3 overflow-hidden h-75"
+            bis_skin_checked="1">
+            <div class="glide dashboard-swiper-glide col-12">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide position-relative p-0">
+                            <h5 class="ms-3 mt-3 position-absolute top-0 start-0 swiper-id">Added Swiper Image</h5>
+                            <img id="swiperImg" src="https://placehold.co/600x400/CDD3FF/000?text=Added+Swiper+Image"
+                                class="card-img" alt="card-img-overlay">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="height:0px;width:0px;overflow:hidden">
+            <input id="swiperImgInput" type="file" name="image" accept="image/*">
+        </div>
+        <img id="swiperUploadImg" src="https://placehold.co/1000x150?text=Click+me+to+upload+image" class="col-12">
+    </div>
+    <label for="swiperDescInput" class="text-muted mt-2 mb-2">Swiper Description</label>
+    <input id="swiperDescInput" class="form-control mb-2" placeholder="Add description">
+    <button id="submitBtn" type="button" class="btn btn-primary mt-3">Add Swiper</button>
+</form>
