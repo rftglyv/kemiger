@@ -140,7 +140,7 @@ api.delete('/api/products/uploads/:id', jwtCheck, (req, res) => {
     if (productIndex !== -1) {
         imagePath = productsParsed[productIndex].image
         try {
-            unlinkSync("../public/" + imagePath)
+            unlinkSync("../app/public/" + imagePath)
         } catch (error) {
             console.log(error);
         }

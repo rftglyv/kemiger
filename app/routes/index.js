@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const { requiresAuth } = require('express-openid-connect');
 const axios = require('axios');
-const apiDomain = process.env.AUDIENCE
+const apiDomain = 'http://localhost:3010'
 
 router.get('/dashboard', requiresAuth(), async function (req, res) {
 
@@ -36,13 +36,13 @@ router.get('/product/:id', async function (req, res) {
     productId = req.params.id
     apiResponse = await axios.get(`${apiDomain}/api/products/${productId}`)
     data = apiResponse.data;
-    res.render('product', {product: data});
+    res.render('product', { product: data });
 });
 
 router.get('/category/:id', async function (req, res) {
     productId = req.params.id
     apiResponse = await axios.get(`${apiDomain}/api/products/${productId}`)
-    res.render('category', {product: apiResponse});
+    res.render('category', { product: apiResponse });
 });
 
 router.get('/products', function (req, res) {
