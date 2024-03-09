@@ -12,9 +12,7 @@
       "Dermatolojide hekime destek",
       "Yaşam kalitesini arttırmaya yardımcı besin"
     ],
-    "categories": [
-      "CureO9"
-    ],
+    "category": "CureO9",
     "image": "assets/products/1.png",
     "timestamp": 1709753018433
   },
@@ -32,9 +30,7 @@
       "Hekime dental yaklaşımda destek",
       "Yaşam kalitesini arttırmaya yardımcı besin"
     ],
-    "categories": [
-      "Ağız Koruma"
-    ],
+    "category": "CureO9",
     "image": "assets/products/2.png",
     "timestamp": 1709582827321
   },
@@ -53,9 +49,7 @@
       "Hastaya dental yaklaşımda destek",
       "Hasta yaşamda kalır. Yaşam kalitesini arttırmaya yardımcı besin."
     ],
-    "categories": [
-      "Oral Algoloji Barrier"
-    ],
+    "category": "CureO9",
     "image": "assets/products/3.png",
     "timestamp": 1709583021645
   },
@@ -73,9 +67,7 @@
       "Yoğun eldiven kullanımında",
       "Yaşam kalitesini arttırmaya yardımcı besin"
     ],
-    "categories": [
-      "El Koruma"
-    ],
+    "category": "CureO9",
     "image": "assets/products/4.png",
     "timestamp": 1709588040765
   },
@@ -89,9 +81,7 @@
       "Asistan",
       "Hasta"
     ],
-    "categories": [
-      "Kemiger"
-    ],
+    "category": "Kemiger",
     "image": "assets/products/aspirevac.png",
     "timestamp": 1709588040765
   },
@@ -105,40 +95,8 @@
       "Ağız koku",
       "Genital Koku"
     ],
-    "categories": [
-      "CureO9"
-    ],
+    "category": "CureO9",
     "image": "assets/products/Body Odor barrier web site.png",
     "timestamp": 1709588040765
-  },
-  {
-    "id": 7,
-    "name": "Qandon Senan",
-    "desc": "Sex de padlo yoxdu",
-    "addDesc": "Dombal",
-    "benefits": [
-      "sex",
-      "ah",
-      "masturbat"
-    ],
-    "categories": [
-      "sexy"
-    ],
-    "image": "assets/products/7.png",
-    "timestamp": 1709747006138
-  },
-  {
-    "id": 8,
-    "name": "45 Click me to edit",
-    "desc": "Click madse to edit",
-    "addDesc": "Click me to edit",
-    "benefits": [
-      ""
-    ],
-    "categories": [
-      ""
-    ],
-    "image": "assets/products/8.png",
-    "timestamp": 1709951592750
   }
 ]

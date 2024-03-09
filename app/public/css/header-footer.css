@@ -26,6 +26,7 @@ header {
     }
 
     .navbar-nav {
+        --bs-navbar-active-color: #54b0b7;
         --bs-nav-link-hover-color: #54b0b7;
     }
 

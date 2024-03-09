@@ -141,11 +141,11 @@ function setFormFields(form, data) {
     formFields.productName.innerText = data.name
     formFields.productDesc.innerText = data.desc
     formFields.productAdditionalDesc.innerText = data.addDesc
-    fillCategories(formFields.productCategories, data.categories)
+    formFields.productCategories.innerText = data.category
+    formFields.productCategoriesInput.value = data.category
     fillCategories(formFields.productBenefits, data.benefits)
-    fillCategoriesInput(formFields.productCategoriesInput, data.categories)
     fillCategoriesInput(formFields.productBenefitsInput, data.benefits)
-    formFields.productTimestamp.innerText = timeStamp.toLocaleTimeString('tr-tr', { timeZone: 'UTC' }) + ' | ' + timeStamp.toLocaleDateString('tr-tr', { timeZone: 'UTC' })
+    formFields.productTimestamp.innerText = timeStamp.toLocaleDateString('tr-tr', { timeZone: 'UTC' })
 }
 
 
@@ -239,9 +239,9 @@ updateProductForm.querySelector('#submitBtn').onclick = async () => {
 delProductForm.querySelector('#submitBtn').onclick = async () => {
     await delPrdForm(delProductForm);
 };
-addSwiperForm.querySelector('#submitBtn').onclick = async () => {
-    await addSwpForm(addSwiperForm);
-};
+// addSwiperForm.querySelector('#submitBtn').onclick = async () => {
+//     await addSwpForm(addSwiperForm);
+// };
 
 
 async function readFormData(form) {
@@ -252,36 +252,34 @@ async function readFormData(form) {
     lastId = await lastId.json()
     productId = lastId + 1
     let formFields = getFormFields(form)
-    if (formFields.productName.innerText !== 'Click me to edit') {
-        if (formFields.productDesc.innerText !== 'Click me to edit') {
-            if (formFields.productImgInput.files.length == 0) {
-                addAlert('Image not found!', 'Provide product image.', 'danger')
-            } else {
-                // Product image
-                const formData = new FormData();
-                formData.append("productId", productId);
-                for (let i = 0; i < formFields.productImgInput.files.length; i++) {
-                    formData.append("files", formFields.productImgInput.files[i]);
-                }
-
-                // Product data
-                var dataJSON = JSON.stringify({
-                    "id": productId,
-                    "name": formFields.productName.innerText,
-                    "desc": formFields.productDesc.innerText,
-                    "addDesc": formFields.productAdditionalDesc.innerText.replace(/\n/g, ''),
-                    "benefits": splitWithComma(formFields.productBenefitsInput.value),
-                    "categories": splitWithComma(formFields.productCategoriesInput.value),
-                    "image": `assets/products/${productId}.${formFields.productImgInput.files[0].type.slice(6)}`,
-                    "timestamp": Date.now(),
-                });
-                return [dataJSON, formData, true]
-            }
-        } else {
-            addAlert('Description not found!', 'Provide product description.', 'danger')
-        }
-    } else {
+    if (formFields.productName.innerText == 'Click me to edit') {
         addAlert('Name not found!', 'Provide product name.', 'danger')
+    } else if (formFields.productDesc.innerText == 'Click me to edit') {
+        addAlert('Description not found!', 'Provide product description.', 'danger')
+    } else if (formFields.productImgInput.files.length == 0) {
+            addAlert('Image not found!', 'Provide product image.', 'danger')
+    } else if (formFields.productCategoriesInput.value == '') {
+        addAlert('Category not found!', 'Provide product category.', 'danger')
+    } else {
+        // Product image
+        const formData = new FormData();
+        formData.append("productId", productId);
+        for (let i = 0; i < formFields.productImgInput.files.length; i++) {
+            formData.append("files", formFields.productImgInput.files[i]);
+        }
+
+        // Product data
+        var dataJSON = JSON.stringify({
+            "id": productId,
+            "name": formFields.productName.innerText,
+            "desc": formFields.productDesc.innerText,
+            "addDesc": formFields.productAdditionalDesc.innerText.replace(/\n/g, ''),
+            "benefits": splitWithComma(formFields.productBenefitsInput.value),
+            "category": formFields.productCategoriesInput.value,
+            "image": `assets/products/${productId}.${formFields.productImgInput.files[0].type.slice(6)}`,
+            "timestamp": Date.now(),
+        });
+        return [dataJSON, formData, true]
     }
 }
 

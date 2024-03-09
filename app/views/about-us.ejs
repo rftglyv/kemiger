@@ -20,30 +20,27 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="/css/utils.css">
     <link rel="stylesheet" href="/css/header-footer.css">
-    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="/css/about-us.css">
 </head>
 
 <body>
     <%- include('partials/nav.ejs') %>
-        <section id="product" class="container-fluid d-flex justify-content-center">
-            <div class="card d-flex flex-column flex-md-row position-relative overflow-hidden col-md-11 col-lg-10"
-                bis_skin_checked="1">
-                <img id="productImg" src="../<%= product.image %>"
-                    class="col-12 col-md-6 col-lg-4">
-                <div class="card-body d-flex flex-column justify-content-center p-lg-3" bis_skin_checked="1">
-                    <h2 id="productName" class="card-title"><%= product.name %></h2>
-                    <label for="productDesc" class="fw-bold">Ürün Hakkında</label>
-                    <p id="productDesc" class="card-text my-2"><%= product.desc %></p>
-                    <label for="productAdditionalDesc" class="fw-bold">Ürün Ek Açıklaması</label>
-                    <p id="productAdditionalDesc" class="card-text my-2">
-                        <%= product.addDesc %></p>
-                    <label for="productBenefits" class="fw-bold">Ürün Avantajları</label>
-                    <div id="productBenefits" class="d-flex flex-wrap my-2"><%= product.benefits %></div>
-                    <label for="productCategories" class="fw-bold">Ürün Kategorisi</label>
-                    <div id="productCategories" class="d-flex flex-wrap mt-2"><%= product.category %></div></p>
+        <div class="about-us">
+            <h1 class="text-center py-3 mb-5">Hakkımızda</h1>
+            <div class="aboutUs-wrapper d-flex flex-column align-items-center p-5">
+                <div class="col-10 d-flex flex-column align-items-center">
+                    <h2>Kemiger Vizyonu</h2>
+                    <p class="text-center fs-4 mt-3">Kemiger çeyrek yüzyılı aşkın süre boyunca, yaşam temelli kimya ve
+                        teknolojileri alanında ürün ve hizmet ürettirir. Tüm çabamız, yaşam içinde insan, bitki ve
+                        hayvan sağlığına olumlu etki sunmaktır. Üzerinde çalıştığımız başlıklar, doğrudan veya dolaylı
+                        yaşama olumlu etki eder. Çağın ötesinde bilgi birikimine sahip AR-GE ekibimiz, büyük fayda
+                        vadeder. Ortaya çıkan sonuç, ortak hedef ve mutluluğumuza imkan sağlar. Ayrıca Kemiger teknoloji
+                        kolu ile yaşam kolaylaştırıcı ve güvenlik sistemleri üretir. Üretilen teknolojik makinalar büyük
+                        ekonomi ve konfor sunar.</p>
                 </div>
+
             </div>
-        </section>
+        </div>
         <%- include('partials/footer.ejs') %>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

@@ -9,6 +9,9 @@ body {
 #product {
     margin: 5rem 0;
 }
+#productImg{
+    object-fit: cover;
+}
 
 /* Product */
 

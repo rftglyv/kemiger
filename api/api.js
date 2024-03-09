@@ -184,14 +184,14 @@ api.get('/api/products/:idOrName', (req, res) => {
 //      Route to handle HTTP POST requests
 
 api.post('/api/products', jwtCheck, (req, res) => {
-    const { id, name, desc, addDesc, benefits, categories, image, timestamp } = req.body
+    const { id, name, desc, addDesc, benefits, category, image, timestamp } = req.body
 
     const productIdIndex = productsParsed.findIndex(product => product.id == id),
         productNameIndex = productsParsed.findIndex(product => product.name == name);
 
     try {
         if (productIdIndex == -1 && productNameIndex == -1) {
-            productsParsed.push({ id, name, desc, addDesc, benefits, categories, image, timestamp });
+            productsParsed.push({ id, name, desc, addDesc, benefits, category, image, timestamp });
             if (!(saveData('./products.json', productsParsed))) {
                 res.status(200).json({ success: 'Product saved successfully!' });
                 return

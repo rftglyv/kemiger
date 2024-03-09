@@ -14,7 +14,7 @@ const config = {
     clientSecret: process.env.CLIENTSECRET,
     authorizationParams: {
         response_type: 'code',
-        audience: 'http://localhost:3010',
+        audience: process.env.AUDIENCE,
         scope: 'openid profile email offline_access',
     }
 };
@@ -22,14 +22,14 @@ const config = {
 var app = express();
 app.set('views', 'views');
 app.set('view engine', 'ejs');
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use(cookieParser());
 app.use(auth(config));
 
-app.use('/', indexRouter)
+app.use('/', indexRouter);
 
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
-})
+});

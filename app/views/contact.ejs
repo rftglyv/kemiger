@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemiger</title>
+    <link rel="icon" href="../assets/icons/icon-32x32.png" sizes="32x32">
+    <link rel="icon" href="../assets/icons/icon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="../assets/icons/icon-180x180.png">
+    <meta name="msapplication-TileImage" content="../assets/icons/icon-270x270.png">
+    <script src="https://kit.fontawesome.com/44e05cc47c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/header-footer.css">
+    <link rel="stylesheet" href="/css/about-us.css">
+</head>
+
+<body>
+    <%- include('partials/nav.ejs') %>
+        <div class="about-us">
+            <h1 class="text-center py-3 mb-5">İletişim</h1>
+            <div class="aboutUs-wrapper d-flex flex-column align-items-center px-0 p-5 p-md-5">
+                <div class="col-10 d-flex flex-column align-items-center">
+                    <span><i class="fa-solid fa-compass"></i>
+                        <h5 class="text-start d-inline ms-1">Adres : Turgut Özal Mahallesi. 2179 Cadde No:12\C. Ankara,
+                            Türkiye</h5>
+                    </span>
+                    <span class="my-3"><i class="fa-solid fa-phone fs-6"></i>
+                        <a href="tel:+903123544808" title="Telefon" class="text-decoration-none text-white">
+                            <h5 class="text-start d-inline ms-1">Sabit Numara : +90 (312) 354 4808</h5>
+                        </a>
+                    </span>
+                    <span><i class="fa-brands fa-whatsapp fs-5"></i>
+                        <a href="https://wa.me/+905491774700" title="Telefon" class="text-decoration-none text-white">
+                            <h5 class="text-start d-inline ms-1">WhatsApp : +90 (549) 177 4700</h5>
+                        </a>
+                    </span>
+                    <div class="socials d-flex col-12 col-md-6 col-xl-3 mt-3 justify-content-between">
+                        <a href="https://www.facebook.com/profile.php?id=100063100876876" title="Facebook"
+                            class="nav-link fw-bold"><i class="fa-brands fa-facebook-f me-2"></i>FaceBook</a>
+                        <a href="https://www.instagram.com/kemigerkimya" title="Instagram" class="nav-link mx-4 fw-bold"><i class="fa-brands fa-instagram me-2"></i>Instagram</a>
+                        <a href="https://www.linkedin.com/company/kemiger-kimya/" title="LinkedIn" class="nav-link fw-bold"><i class="fa-brands fa-linkedin-in me-2"></i>LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('partials/footer.ejs') %>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                crossorigin="anonymous"></script>
+            <script defer src="/js/utils.js"></script>
+            <script src="/js/product.js"></script>
+            <script src="/js/validation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-us{
+    color: #fff;
+    margin-top: 3rem;
+    min-height: 50vh;
+    h1, .aboutUs-wrapper {
+        background-color: #54b0b7;
+    }
+}
+
+footer {
+    margin-top: auto;
+}
