@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const { requiresAuth } = require('express-openid-connect');
 const axios = require('axios');
-const apiDomain = 'http://localhost:3010'
+const apiDomain = process.env.AUDIENCE
 
 router.get('/dashboard', requiresAuth(), async function (req, res) {
 
