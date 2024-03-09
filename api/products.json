@@ -113,48 +113,6 @@
   },
   {
     "id": 7,
-    "name": "Click meads to edit",
-    "desc": "Click me to editasd",
-    "addDesc": "Click me to editdas",
-    "benefits": [
-      "das"
-    ],
-    "categories": [
-      "ads"
-    ],
-    "image": "assets/products/7.png",
-    "timestamp": 1709746886061
-  },
-  {
-    "id": 8,
-    "name": "Click me to editads",
-    "desc": "Click me to eadsdit",
-    "addDesc": "Click me to editdas",
-    "benefits": [
-      ""
-    ],
-    "categories": [
-      ""
-    ],
-    "image": "assets/products/8.png",
-    "timestamp": 1709754297416
-  },
-  {
-    "id": 9,
-    "name": "Click me tsao edit",
-    "desc": "Click me to edadsit",
-    "addDesc": "Click me to edasdit",
-    "benefits": [
-      ""
-    ],
-    "categories": [
-      ""
-    ],
-    "image": "assets/products/9.png",
-    "timestamp": 1709745914779
-  },
-  {
-    "id": 11,
     "name": "Qandon Senan",
     "desc": "Sex de padlo yoxdu",
     "addDesc": "Dombal",
@@ -166,21 +124,21 @@
     "categories": [
       "sexy"
     ],
-    "image": "assets/products/11.png",
+    "image": "assets/products/7.png",
     "timestamp": 1709747006138
   },
   {
-    "id": 12,
-    "name": "asda",
-    "desc": "Click me to ediasdat",
-    "addDesc": "Click me to edasdait",
+    "id": 8,
+    "name": "45 Click me to edit",
+    "desc": "Click madse to edit",
+    "addDesc": "Click me to edit",
     "benefits": [
-      "asdasd"
+      ""
     ],
     "categories": [
-      "asda"
+      ""
     ],
-    "image": "assets/products/12.png",
-    "timestamp": 1709748354064
+    "image": "assets/products/8.png",
+    "timestamp": 1709951592750
   }
 ]

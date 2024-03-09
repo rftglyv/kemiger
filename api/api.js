@@ -22,7 +22,7 @@ if (!process.env.ISSUER || !process.env.AUDIENCE) {
 }
 
 const corsOptions = {
-    origin: process.env.AUDIENCE,
+    origin: process.env.APP,
     credentials: true
 };
 
@@ -39,7 +39,7 @@ api.use(express.urlencoded({ extended: true }))
 
 productImagesStorage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, "../public/assets/products")
+        cb(null, "../app/public/assets/products")
     },
     filename: function (req, file, cb) {
         cb(null, req.body.productId + "." + file.mimetype.slice(6))
@@ -48,7 +48,7 @@ productImagesStorage = multer.diskStorage({
 
 swiperImagesStorage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, "../public/assets/swipers")
+        cb(null, "../app/public/assets/swipers")
     },
     filename: function (req, file, cb) {
         cb(null, req.body.id + "." + file.mimetype.slice(6))

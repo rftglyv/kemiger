@@ -538,8 +538,6 @@ async function setSwipersForm(form) {
     }
 }
 
-setSwipersForm(addSwiperForm)
-
 function resetSwiperForm(form) {
     const swiperDesc = form.querySelector('#swiperDescInput');
     const img = form.querySelector('#swiperImg');
